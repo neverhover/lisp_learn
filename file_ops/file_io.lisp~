@@ -1,0 +1,8 @@
+;;;; This is file io examples
+
+;; Read a file
+(defun read-line (filename)
+  "Read a line form filename"
+  (let ((fin (open filename)))
+    (format t "~a~%" (read-line in))
+    (close fin)))

@@ -1,0 +1,10 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 1 (FORMAT T "Clisp comile ")-1|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|1 1 (FORMAT T "Clisp comile ")-1-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+       ("Clisp comile ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))

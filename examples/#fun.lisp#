@@ -1,0 +1,15 @@
+;;; This is example of Chapter funtions
+(defun helloBlood ()
+  "This is a function of helloBlood"
+  (format t "OK OK!"))
+
+(helloBlood)
+
+(defun plot (min max step)
+  (loop for i from min to max by step do
+       (loop repeat i do (format t "*"))
+       (format t "~%")))
+
+(defun double (x) (* 2 x))
+
+(plot  0 5 1)

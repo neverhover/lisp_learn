@@ -1,0 +1,8 @@
+;;;;; Packages
+
+(defpackage :org.timewing.pkg_lib
+  (:use :common-lisp))
+
+(defun hi (name)
+  "Hi name"
+  (format t "~a~%" name))

@@ -1,0 +1,21 @@
+;;定义CD， :来作为属性名
+(list :a 1 :b 2 :c 3)
+
+;;定义函数
+(defun make-cd (title artist rating ripped)
+  "定义MAKE-CD函数"
+  (list :title title :artist artist :rating rating :ripped ripped))
+;;创建一条记录
+(make-cd "张学友2016" "Jay" 7 t)
+
+;;创建变量来保存数据
+(defvar *db* nil)
+;;创建一个函数来添加记录
+(defun add-record (cd)
+  "添加一条记录到DB中"
+  (push cd *db*))
+
+;;来，插入一条试试
+(add-record (make-cd "My bad" "JackSon" 8 t))
+;;来，插入一条试试
+(add-record (make-cd "相约1998" "JackSon" 8 t))
