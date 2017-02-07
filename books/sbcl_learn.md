@@ -1,3 +1,7 @@
+## 标准安装方法
+
+http://www.jonathanfischer.net/modern-common-lisp-on-linux/
+
 ## 下载地址
 www.sbcl.org
 
@@ -45,7 +49,9 @@ M-x slime-cd Enter然后输入路径，表示进入到该路径
 执行完成后返回T
 
 ## 执行
+
 参考[https://common-lisp.net/project/slime/doc/html/Evaluation.html#Evaluation]
+
 C-c C-c 进行编译
 C-x C-e 执行当前光标内容
 C-M-x 或M-x slime-eval-defun来定义函数
